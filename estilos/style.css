@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+:root {
+    --gradiente1: #F56893;
+    --gradiente2: #DA4AAA;
+    --gradiente3: #C43BB4;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+} 
+
+main {
+    background-image: linear-gradient(to bottom, #C43BB4, #DA4AAA, #F56893);
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+article {
+    background-color: white;
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+section {
+    
+}
