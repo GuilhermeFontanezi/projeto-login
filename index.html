@@ -8,11 +8,32 @@
 </head>
 <body>
     <main>
+        
         <article>
             <section>
-                
+                <h1>FaceChat</h1>
+                <p class="destaque">Bem-Vindo <br> de Volta!</p>
+                <p class="espaço">Ainda não tem uma conta? crie agora!</p>
+                <p class="transiçao"><a href="registo.html">Registrar-se</a></p>
             </section>
+            <aside>
+                <h1>Faça seu Login.</h1>
+                <p>Informe seus dados para entrar</p>
+                   <form action="cadastro.php" method="post" autocomplete="on">
+                        <div class="estilo-input">
+                            <input type="email" name="email" id="iemail" autocomplete="email" placeholder="Email" required>
+                        </div>
+                        <div class="estilo-input">
+                            <input type="password" name="senha" id="isenha" autocomplete="current-password" placeholder="Senha" minlength="8" required> 
+                        </div>
+                        <div id="estilo-input">
+                            <input type="submit" value="Entrar" id="botao">
+                        </div>
+                    </form>
+                    <p><a href="#">Esqueceu a senha?</a></p>
+            </aside>
         </article>
+           
     </main>
 </body>
 </html>
