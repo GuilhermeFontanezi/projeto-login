@@ -40,6 +40,7 @@ article {
     background-color: white;
     position: absolute;
     width: 900px;
+    min-width: 400px;
     height: 550px;
     border-radius: 10px;
 
@@ -56,6 +57,7 @@ section{
     border-radius: 10px 0px 0px 10px;
     height: 550px;
     width: 350px;
+    min-width: 100px;
 }
 
 section > h1 {
@@ -113,7 +115,7 @@ aside {
     border-top-right-radius: 10px;
     height: 550px;
     width: 550px;
-    min-width: 100px;
+    min-width: 200px;
     background-color: rgb(247, 247, 247);
     
 }
@@ -146,6 +148,7 @@ label {
     border: none;
     padding: 17px 10px ;
     width: 370px;
+    min-width: 130px;
     margin-bottom: 30px;
     border-radius: 7px;
 }
