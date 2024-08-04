@@ -147,7 +147,7 @@ label {
     background-color: lightgray;
     border: none;
     padding: 17px 10px ;
-    width: 370px;
+    width: 350px;
     min-width: 130px;
     margin-bottom: 30px;
     border-radius: 7px;
@@ -161,6 +161,11 @@ input#botao {
     background-color: #7c7ce6;
     font-size: 20px;
     width: 200px;
+}
+
+input#botao:hover {
+    transform: translate(3px, -3px);
+    transition: transform 0.5s;
 }
 
 aside a {
