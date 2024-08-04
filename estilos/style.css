@@ -39,8 +39,10 @@ article {
     box-shadow:3px 3px 7px rgba(0, 0, 0, 0.479);
     background-color: white;
     position: absolute;
-    width: 900px;
+    max-width: 900px;
+    min-width: 300px;
     height: 550px;
+    min-height: 300px;
     border-radius: 10px;
 
     top: 50%;
@@ -55,7 +57,9 @@ section{
     background-color: #7c7ce6;
     border-radius: 10px 0px 0px 10px;
     height: 551px;
-    width: 350px;
+    min-height: 300px;
+    max-width: 350px;
+    min-width: 200px;
 }
 
 section > h1 {
@@ -112,7 +116,9 @@ aside {
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     height: 550px;
-    width: 550px;
+    min-height: 300px;
+    max-width: 550px;
+    min-width: 100px;
     background-color: rgb(247, 247, 247);
     
 }
