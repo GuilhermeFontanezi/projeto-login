@@ -58,7 +58,7 @@ section{
     border-radius: 10px 0px 0px 10px;
     height: 551px;
     min-height: 300px;
-    max-width: 350px;
+    width: 350px;
     min-width: 200px;
 }
 
@@ -117,7 +117,7 @@ aside {
     border-top-right-radius: 10px;
     height: 550px;
     min-height: 300px;
-    max-width: 550px;
+    width: 550px;
     min-width: 100px;
     background-color: rgb(247, 247, 247);
     
