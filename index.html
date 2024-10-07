@@ -50,11 +50,25 @@
                     </div>
                 </form>
                 <p><a href="recupereasenha.html">Esqueceu a senha?</a></p>
-                <span class="material-symbols-outlined">
-                    arrow_upward
-                </span>
+            <div id="margem">
+
+            </div>
+            <span class="material-symbols-outlined" onclick="subirmargem()">
+                arrow_upward
+            </span>
         </aside>
            
     </main>
+
+    <script>
+        function subirmargem() {
+            if (margem.style.display == 'block'){
+                margem.style.display = 'none' 
+            } else {
+                margem.style.display = 'block'
+            }
+
+        }
+    </script>
 </body>
 </html>
