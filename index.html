@@ -35,7 +35,7 @@
                     <p><a href="recupereasenha.html">Esqueceu a senha?</a></p>
             </aside>
         </article>
-        <aside id="tela-pequena">
+        <aside class="tela-pequena">
             <h1>Faça seu Login.</h1>
             <p style="margin-bottom: 48px;">Informe seus dados para entrar</p>
                <form action="cadastro.php" method="post" autocomplete="on">
@@ -55,7 +55,8 @@
                 <p class="transiçao"><a href="registo.html">Registrar-se</a></p>
             </div>
             <span class="material-symbols-outlined" onclick="subirmargem()">  
-                density_medium
+                <p>crie sua conta</p>
+                arrow_downward_alt
             </span>
         </aside>
            
@@ -63,12 +64,13 @@
 
     <script>
         function subirmargem() {
+            var margem = document.getElementById("margem");
+            
             if (margem.style.display == 'block'){
                 margem.style.display = 'none' 
             } else {
                 margem.style.display = 'block'
             }
-
         }
     </script>
 </body>

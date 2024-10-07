@@ -172,6 +172,6 @@ aside a::before {
     content: "🔒";
 }
 
-aside#tela-pequena {
+aside.tela-pequena {
     display: none;
 }

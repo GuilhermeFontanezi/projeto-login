@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recupere a Senha</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/medias-queries.css">
 </head>
 <body>
     <main>
@@ -26,6 +27,16 @@
                 </form>
             </aside>
         </article>
+        <aside class="tela-pequena">
+            <h1>Faça seu Registro.</h1>
+            <p>informe seus dados</p>
+            <form action="cadastro.php" method="post">
+                <input type="text" name="nome" id="inome" placeholder="Nome Completo" required autocomplete="name">
+                <input type="email" name="email" id="iemail" placeholder="Email" required autocomplete="email">
+                <input type="password" name="senha" id="isenha" placeholder="Senha" required autocomplete="current-password">
+                <input type="submit" value="Recuperar" id="botao">
+            </form>
+        </aside>
     </main>
 </body>
 </html>

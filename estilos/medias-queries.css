@@ -20,7 +20,7 @@
         
     }
 
-    aside#tela-pequena {
+    aside.tela-pequena {
         display: block;
         top: 50%;
         left: 50%;
@@ -35,7 +35,7 @@
         margin-bottom: 0px;
     }
 
-    aside#tela-pequena h1 {
+    aside.tela-pequena h1 {
         margin-top: 30px;
     }
 
@@ -45,14 +45,22 @@
     
     span {
         position: absolute;
-        color: rgb(151, 151, 151);
+        color: rgb(158, 158, 158);
         top: 320px;
+        left: 20px;
         cursor: pointer;
     }
 
+    span > p {
+        left: -15px;
+        top: 23px;
+        position: absolute;
+        font-size: 10px;
+    }
+
     span:hover {
-        transform: translate(0px, -3px);
-        transition: transform 0.5s;
+        transform: translate(0px, 3px);
+        transition: transform 0.5s ease;
     }
 
     #margem {
@@ -64,7 +72,7 @@
         height: 100px;
         background-color: white;
         border-radius: 0px 0px 10px 10px;
-        transition: 1s;
+        transition: display 1s ease;
     }
 
     #margem > p {
@@ -93,6 +101,7 @@
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
+
 
     /*
     section {
