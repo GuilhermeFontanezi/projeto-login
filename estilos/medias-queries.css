@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+:root {
+    --gradiente1: #F56893;
+    --gradiente2: #DA4AAA;
+    --gradiente3: #C43BB4;
+
+    --fontetitulo: "Paytone One", Arial, sans-serif;
+    --fontetexto: "Rubik", Arial, sans-serif;
+}
+
 @media screen and (max-width: 576px) {
     article {
         display: none;
@@ -37,7 +46,7 @@
     span {
         position: absolute;
         color: rgb(151, 151, 151);
-        top: 329px;
+        top: 320px;
         cursor: pointer;
     }
 
@@ -53,9 +62,29 @@
         top: 350px;
         width: 350px;
         height: 100px;
-        background-color: rgb(223, 223, 223);
+        background-color: white;
         border-radius: 0px 0px 10px 10px;
         transition: 1s;
+    }
+
+    #margem > p {
+        margin-top: 10px;
+        text-align: center;
+        color: #7c7ce6;
+        font-family: var(--fontetitulo);
+    }
+
+    #margem > p > a {
+        color: white;
+        padding: 5px 10px;
+        text-decoration: none;
+        font-size: 1.3em;
+        border-radius: 20px;
+        background-color: #7c7ce6;
+    }
+
+    #margem > p > a::before {
+        content: none;
     }
 
     section {
