@@ -29,7 +29,7 @@ p {
 }
 
 main {
-    background-color: rgb(216, 214, 214);
+    background-color: rgb(223, 223, 223);
     position: relative;
     height: 100vh;
     width: 100vw;
@@ -170,4 +170,8 @@ aside a {
 
 aside a::before {
     content: "🔒";
+}
+
+aside#tela-pequena {
+    display: none;
 }
