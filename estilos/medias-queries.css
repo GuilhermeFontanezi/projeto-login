@@ -45,7 +45,7 @@
     
     span {
         position: absolute;
-        color: rgb(158, 158, 158);
+        color: #8080ec63;
         top: 320px;
         left: 20px;
         cursor: pointer;
@@ -59,8 +59,10 @@
     }
 
     span:hover {
-        transform: translate(0px, 3px);
-        transition: transform 0.5s ease;
+        transform: translate(0px, 5px);
+        color: #8080ec; 
+        transition: transform 0.5s ease, color 1s ease;
+       
     }
 
     #margem {
